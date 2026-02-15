@@ -1,0 +1,18 @@
+{
+  "name": "agent-marketplace-cli",
+  "version": "1.0.0",
+  "description": "AI Agent Marketplace CLI - Command-line interface for managing AI agents",
+  "type": "module",
+  "bin": {
+    "agent-cli": "./src/index.js"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "agent-cli": "node src/index.js"
+  },
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "inquirer": "^9.2.12",
+    "ora": "^7.0.1"
+  }
+}
